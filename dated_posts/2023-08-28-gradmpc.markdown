@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Gradient-based Planning with World Models"
+date:   2023-08-28 22:21:59 +00:00
+image: /images/gradplan.png
+categories: research
+author: "Jyothir S V"
+authors: "<strong>Jyothir S V*</strong>,  Siddhartha Jalagam*, Yann LeCun, Vlad Sobal"
+venue: "arXiv"
+paper: /pdfs/Gradient_based_Planning.pdf
+code: https://github.com/Laughing-Boy/dreamer-optimizer
+---
+We show how shape reconstruction with 3D Gaussians can be expanded to include differentiable optical flow, colored mesh exports and more. 

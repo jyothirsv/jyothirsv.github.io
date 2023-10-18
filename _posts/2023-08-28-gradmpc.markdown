@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Gradient-based Planning with World Models"
+date:   2023-08-28 22:21:59 +00:00
+image: /images/gradplan.png
+categories: research
+author: "Jyothir S V"
+authors: "<strong>Jyothir S V*</strong>,  Siddhartha Jalagam*, Yann LeCun, Vlad Sobal"
+venue: "under review"
+paper: /pdfs/Gradient_based_Planning.pdf
+code: https://github.com/Laughing-Boy/dreamer-optimizer
+---
+Most model predictive control (MPC) algorithms designed for visual world models have traditionally explored gradient-free population-based optimization methods, such as Cross Entropy and Model Predictive Path Integral (MPPI) for planning. We present an exploration of a gradient-based alternative that fully leverages the differentiability of the world model.
