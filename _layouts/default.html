@@ -42,7 +42,7 @@
                 I did my undergraduation at IIT Mandi, where I worked under supervision of <a href="https://faculty.iitmandi.ac.in/~aditya/" >Prof. Aditya Nigam</a>.
               </p>
               <p>
-                <span class="red-text">I am actively applying for PhD oppurtunities starting Fall 2024. </span> Feel free to reach out to me : <span>jyothir -at- nyu</span>
+                <!-- span class="red-text">I am actively applying for PhD oppurtunities starting Fall 2024. </span--> Feel free to reach out to me : <span class="red-text">jyothir -at- nyu</span>
               </p>
 
               <p style="text-align:center">
@@ -71,8 +71,8 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
           {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'research' %}
+          {% for dog in post.categories %}
+          {% if dog == 'research' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
@@ -132,8 +132,8 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
           {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'Intel' %}
+          {% for dog in post.categories %}
+          {% if dog == 'Intel' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
@@ -199,8 +199,8 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
           {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat != 'research' and cat != 'Intel' %}
+          {% for dog in post.categories %}
+          {% if dog != 'research' and dog != 'Intel' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
