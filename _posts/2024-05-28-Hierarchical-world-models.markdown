@@ -7,7 +7,7 @@ categories: research
 author: "Jyothir S V"
 authors: "Nicklas Hansen, <strong>Jyothir S V</strong>, Vlad Sobal, Yann LeCun, Xiaolong Wang, Hao Su"
 venue: "arXiv"
-https://arxiv.org/abs/2405.18418
+arxiv: https://arxiv.org/abs/2405.18418
 code: https://github.com/nicklashansen/puppeteer
 ---
 In this paper, we introduce a hierarchical world model for whole-body humanoid control that learns dynamics from human motion captured data. We also propose a novel task suite for evaluation and highlight the effectiveness of our model through various experiments.
