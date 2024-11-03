@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Gradient-based Planning with World Models"
-date:   2023-08-28 22:21:59 +00:00
+date:   2024-08-28 22:21:59 +00:00
 image: /images/gradplan.png
 categories: research
 author: "Jyothir S V"
