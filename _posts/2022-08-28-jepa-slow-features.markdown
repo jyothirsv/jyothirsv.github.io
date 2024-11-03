@@ -7,7 +7,7 @@ categories: research
 author: "Jyothir S V"
 authors: "Vlad Sobal, <strong>Jyothir S V</strong>, Siddhartha Jalagam, Nicholas Carion, Kyunghyun Cho, Yann Lecun"
 venue: "NeurIPS SSL Workshop"
-link: https://arxiv.org/abs/2211.10831
+arxiv: https://arxiv.org/abs/2211.10831
 code: https://github.com/vladisai/JEPA_SSL_NeurIPS_2022
 ---
 In this work, we analyze performance of JEPA trained with VICReg and SimCLR objectives in the fully offline setting without access to rewards, and compare the results to the performance of the generative architecture.
