@@ -6,7 +6,7 @@ image: /images/jepa.png
 categories: research
 author: "Jyothir S V"
 authors: "Vlad Sobal, <strong>Jyothir S V</strong>, Siddhartha Jalagam, Nicholas Carion, Kyunghyun Cho, Yann Lecun"
-venue: "NeurIPS SSL Workshop 2022"
+venue: "NeurIPS SSL Workshop"
 link: https://arxiv.org/abs/2211.10831
 code: https://github.com/vladisai/JEPA_SSL_NeurIPS_2022
 ---
