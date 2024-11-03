@@ -7,6 +7,7 @@ categories: research
 author: "Jyothir S V"
 authors: "<strong>Jyothir S V</strong>,  Siddhartha Jalagam, Yann LeCun, Vlad Sobal"
 venue: "ICLR Generative Models for Decision Making Workshop"
-paper: /pdfs/Gradient_based_Planning.pdf
+link: /pdfs/Gradient_based_Planning.pdf
+code: https://github.com/jyothirsv
 ---
 Most model predictive control (MPC) algorithms designed for visual world models have traditionally explored gradient-free population-based optimization methods, such as Cross Entropy and Model Predictive Path Integral (MPPI) for planning. We present an exploration of a gradient-based alternative that fully leverages the differentiability of the world model.
