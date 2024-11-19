@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Recite, Reconstruct, Recollect: Memorization in LMs as a Multifaceted Phenomenon"
+date:   2024-02-05 22:21:59 +00:00
+image: /images/rrr.png
+categories: research
+author: "Jyothir S V"
+authors: "USVSN Sai Prashanth*, ..., <strong>Jyothir S V*</strong>, ..., Katherine Lee, Naomi Saphra"
+venue: "ICLR Submission 2025"
+arxiv: https://arxiv.org/abs/2406.17746
+code: https://github.com/EleutherAI/semantic-memorization
+---
+In this work, we propose a taxonomy for memorization in language models, breaking it down into recitation, reconstruction, and recollection. We demonstrate the taxonomy's utility by constructing predictive models for memorization and analyzing dependencies that differ across categories and features.
