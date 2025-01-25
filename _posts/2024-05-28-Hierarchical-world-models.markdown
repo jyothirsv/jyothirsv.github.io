@@ -6,7 +6,7 @@ image: /images/puppeteer.gif
 categories: research
 author: "Jyothir S V"
 authors: "Nicklas Hansen, <strong>Jyothir S V</strong>, Vlad Sobal, Yann LeCun, Xiaolong Wang, Hao Su"
-venue: "ICLR Submission 2025, CoRL Workshop on Whole-body Control and Bimanual Manipulation"
+venue: "ICLR 2025, CoRL Workshop on Whole-body Control and Bimanual Manipulation"
 arxiv: https://arxiv.org/abs/2405.18418
 code: https://github.com/nicklashansen/puppeteer
 ---
