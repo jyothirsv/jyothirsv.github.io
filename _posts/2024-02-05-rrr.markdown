@@ -6,7 +6,7 @@ image: /images/rrr.png
 categories: research
 author: "Jyothir S V"
 authors: "USVSN Sai Prashanth*,..., <strong>Jyothir S V*</strong>,..., Katherine Lee, Naomi Saphra"
-venue: "ICLR Submission 2025, EMNLP Finding"
+venue: "ICLR 2025, EMNLP Finding"
 arxiv: https://arxiv.org/abs/2406.17746
 code: https://github.com/EleutherAI/semantic-memorization
 ---
