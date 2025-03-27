@@ -110,6 +110,36 @@ span.highlight {
   transform: scale(1.05); /* This will slightly enlarge the image when hovered */
 }
 
+.profile-pic-wrapper {
+  position: relative;
+  display: inline-block; // or block, depending on your layout
+}
+
+.profile-pic-wrapper img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 50%; // maintain your circular shape
+  transition: opacity 0.5s ease-in-out; // smooth fade transition
+}
+
+/* Initially hide the hover image */
+.profile-pic-wrapper .hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+/* On hover, fade in the hover image and fade out the default image */
+.profile-pic-wrapper:hover .hover-image {
+  opacity: 1;
+}
+
+.profile-pic-wrapper:hover .default-image {
+  opacity: 0;
+}
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
