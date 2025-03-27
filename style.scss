@@ -122,9 +122,7 @@ span.highlight {
 
 /* Position the hover image on top and hide it initially */
 .profile-pic-wrapper .hover-image {
-  position: relative;   // Needed so absolute positioning is relative to this container
   transform: scale(1.05);
-    overflow: hidden;   /* Optional: hides any overflow from images */
 }
 
 /* On hover, show the hover image and hide the default image */
