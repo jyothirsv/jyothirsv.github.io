@@ -110,6 +110,8 @@ span.highlight {
   transform: scale(1.05); /* This will slightly enlarge the image when hovered */
 }
 .profile-pic-wrapper {
+  position: relative; /* Ensures children with absolute positioning are relative to this container */
+  overflow: hidden;   /* Optional: hides any overflow from images */
   
 }
 
