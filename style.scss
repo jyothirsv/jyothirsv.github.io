@@ -124,6 +124,10 @@ span.highlight {
 
 /* Position the hover image on top and hide it initially */
 .profile-pic-wrapper .hover-image {
+  position: relative;   // Needed so absolute positioning is relative to this container
+  width: 160px;         // Set desired width
+  height: 160px;        // Set desired height
+  overflow: hidden;     // Ensures any overflow is clipped
   transform: scale(1.05);
 }
 
