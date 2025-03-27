@@ -109,21 +109,21 @@ span.highlight {
 .profile-pic:hover {
   transform: scale(1.05); /* This will slightly enlarge the image when hovered */
 }
-
 .profile-pic-wrapper {
   position: relative;
-  display: inline-block; // or block, depending on your layout
+  display: inline-block;
+  width: 160px;  // Set desired width
+  height: 160px; // Set desired height
 }
 
 .profile-pic-wrapper img {
-  display: block;
   width: 100%;
-  max-width: 100%;
-  border-radius: 50%; // maintain your circular shape
-  transition: opacity 0.5s ease-in-out; // smooth fade transition
+  height: 100%;
+  border-radius: 50%; // Keep circular shape
+  transition: opacity 0.5s ease-in-out; // Smooth fade transition
 }
 
-/* Initially hide the hover image */
+/* Position the hover image on top and hide it initially */
 .profile-pic-wrapper .hover-image {
   position: absolute;
   top: 0;
@@ -131,7 +131,7 @@ span.highlight {
   opacity: 0;
 }
 
-/* On hover, fade in the hover image and fade out the default image */
+/* On hover, show the hover image and hide the default image */
 .profile-pic-wrapper:hover .hover-image {
   opacity: 1;
 }
