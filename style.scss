@@ -110,6 +110,7 @@ span.highlight {
   transform: scale(1.05); /* This will slightly enlarge the image when hovered */
 }
 .profile-pic-wrapper {
+  
 }
 
 .profile-pic-wrapper img {
@@ -121,10 +122,7 @@ span.highlight {
 
 /* Position the hover image on top and hide it initially */
 .profile-pic-wrapper .hover-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
+  transform: scale(1.05);
 }
 
 /* On hover, show the hover image and hide the default image */
